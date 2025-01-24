@@ -1,4 +1,4 @@
-# Curso de JavaScript: Proyectos y Ejercicios
+# Curso de C: Proyectos y Ejercicios
 
 **¡Bienvenido a mi repositorio de JavaScript!** Este espacio es un registro de mi progreso en el aprendizaje de C, donde encontrarás una colección de proyectos y ejercicios que he desarrollado a lo largo del curso.
 
