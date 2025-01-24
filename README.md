@@ -23,7 +23,7 @@ Para ejecutar los proyectos de este repositorio, necesitarás:
 * **Node.js y npm (o yarn):** Para gestionar las dependencias de los proyectos. Puedes descargarlos desde https://nodejs.org/.
 * **Un editor de código:** Recomiendo Visual Studio Code (https://code.visualstudio.com/) por su gran cantidad de extensiones para JavaScript.
 
-## ‍♂️ Cómo ejecutar los proyectos
+## Cómo ejecutar los proyectos
 
 1. **Clona el repositorio:**
    ```bash
