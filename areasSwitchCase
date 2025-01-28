@@ -1,0 +1,91 @@
+//Realiza un codigo en c que permita el calculo del area de las figuras geometricas... TRIANGULO, RECTANGULO, CUADRADO Y CIRCULO
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h> 
+
+
+int main() {
+    int opcion;
+    float resultado, base, altura, largo, ancho, lado, radio;
+
+    printf("Seleccione una figura geométrica:\n");
+    printf("1. Triángulo\n");
+    printf("2. Rectángulo\n");
+    printf("3. Cuadrado\n");
+    printf("4. Círculo\n");
+    printf("Opción: ");
+    scanf("%d", &opcion);
+
+    switch(opcion) {
+        case 1:
+            printf("Ingrese la base del triángulo: ");
+            scanf("%f", &base);
+            printf("Ingrese la altura del triángulo: ");
+            scanf("%f", &altura);
+            resultado = areaTriangulo(base, altura);
+            printf("El área del triángulo es: %.2f\n", resultado);
+            break;
+        case 2:
+            printf("Ingrese el largo del rectángulo: ");
+            scanf("%f", &largo);
+            printf("Ingrese el ancho del rectángulo: ");
+            scanf("%f", &ancho);
+            resultado = areaRectangulo(largo, ancho);
+            printf("El área del rectángulo es: %.2f\n", resultado);
+            break;
+        case 3:
+            printf("Ingrese el lado del cuadrado: ");
+            scanf("%f", &lado);
+            resultado = areaCuadrado(lado);
+            printf("El área del cuadrado es: %.2f\n", resultado);
+            break;
+        case 4:
+            printf("Ingrese el radio del círculo: ");
+            scanf("%f", &radio);
+            resultado = areaCirculo(radio);
+            printf("El área del círculo es: %.2f\n", resultado);
+            break;
+        default:
+            printf("Opción no válida.\n");
+    }
+
+    return 0;
+}
+
+float areaTriangulo(float base, float altura) {
+    return (base * altura) / 2;
+}
+
+float areaRectangulo(float largo, float ancho) {
+    return largo * ancho;
+}
+
+float areaCuadrado(float lado) {
+    return lado * lado;
+}
+
+float areaCirculo(float radio) {
+    return M_PI * radio * radio;
+}
+
+
+/* 
+    Como opera un switch:
+    
+    switch(variableCondicion){
+        case1:
+            instruccion 1;
+            break;
+        case2:
+            instruccion 2;
+            break;
+        case3:
+            instruccion 3;
+            break;
+        casen:
+            instruccion n;
+            break;
+        default:
+    }
+*/
