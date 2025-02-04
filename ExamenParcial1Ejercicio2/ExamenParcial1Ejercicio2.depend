@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1738681636 source:c:\users\artur\onedrive\escritorio\unaq\progra\examen2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

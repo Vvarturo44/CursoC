@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1733021013 source:c:\users\artur\onedrive\escritorio\unaq\progra\maquinajuegos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
